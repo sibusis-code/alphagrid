@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact AlphaGrid Electrotechnical Solutions - Get in touch for product information, support, or project consultation.">
+  <title>Contact Us | AlphaGrid Electrotechnical Solutions</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/animations.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo">
+        <img src="assets/images/logo.png" alt="AlphaGrid Logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline';">
+        <span>AlphaGrid</span>
+      </a>
+      
+      <!-- Desktop Navigation -->
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="products.html" class="nav-link">Products</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="quote.html" class="nav-link">Get Quote</a>
+      </nav>
+      
+      <!-- Search (Desktop) -->
+      <div class="search-container">
+        <input type="text" id="search-input" class="search-input" placeholder="Search products...">
+        <div id="search-results"></div>
+      </div>
+      
+      <!-- Mobile Menu Button -->
+      <button class="mobile-menu-btn" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav">
+      <a href="index.html" class="mobile-nav-link">Home</a>
+      <a href="products.html" class="mobile-nav-link">Products</a>
+      <a href="about.html" class="mobile-nav-link">About Us</a>
+      <a href="contact.html" class="mobile-nav-link">Contact</a>
+      <a href="quote.html" class="mobile-nav-link">Get Quote</a>
+    </nav>
+  </header>
+  
+  <!-- Main Content -->
+  <main class="main">
+    <!-- Page Header -->
+    <section class="hero" style="padding: 5rem 0;">
+      <div class="container hero-content">
+        <h1 class="hero-title fade-in">Contact Us</h1>
+        <p class="hero-subtitle fade-in">
+          Get in touch with our team. We're here to help.
+        </p>
+      </div>
+    </section>
+    
+    <!-- Contact Content -->
+    <section class="section">
+      <div class="container">
+        <div class="grid grid-cols-1 grid-cols-md-2" style="gap: 3rem;">
+          <!-- Contact Form -->
+          <div class="fade-in-up">
+            <h2 style="font-size: 1.875rem; color: var(--color-primary); margin-bottom: 1.5rem;">Send Us a Message</h2>
+            <p style="color: var(--color-gray-600); margin-bottom: 2rem;">
+              Fill out the form below and we'll get back to you as soon as possible.
+            </p>
+            
+            <form id="contact-form">
+              <div class="form-group">
+                <label for="name" class="form-label required">Full Name</label>
+                <input type="text" id="name" name="name" class="form-input" 
+                       placeholder="John Doe" data-validate="required" required>
+                <div class="form-error"></div>
+              </div>
+              
+              <div class="form-group">
+                <label for="email" class="form-label required">Email Address</label>
+                <input type="email" id="email" name="email" class="form-input" 
+                       placeholder="john@example.com" data-validate="required|email" required>
+                <div class="form-error"></div>
+              </div>
+              
+              <div class="form-group">
+                <label for="phone" class="form-label required">Phone Number</label>
+                <input type="tel" id="phone" name="phone" class="form-input" 
+                       placeholder="+27 65 052 9081" data-validate="required|phone" required>
+                <div class="form-error"></div>
+              </div>
+              
+              <div class="form-group">
+                <label for="company" class="form-label">Company Name</label>
+                <input type="text" id="company" name="company" class="form-input" 
+                       placeholder="Your Company (Optional)">
+                <div class="form-error"></div>
+              </div>
+              
+              <div class="form-group">
+                <label for="message" class="form-label required">Message</label>
+                <textarea id="message" name="message" class="form-textarea" 
+                          placeholder="Tell us about your inquiry..." 
+                          data-validate="required|minLength:10" required></textarea>
+                <div class="form-error"></div>
+              </div>
+              
+              <button type="submit" class="btn btn-accent btn-lg" style="width: 100%;">
+                Send Message
+              </button>
+            </form>
+          </div>
+          
+          <!-- Contact Information -->
+          <div class="fade-in-up">
+            <h2 style="font-size: 1.875rem; color: var(--color-primary); margin-bottom: 1.5rem;">Contact Information</h2>
+            
+            <div style="background: var(--color-gray-100); padding: 2rem; border-radius: 0.75rem; margin-bottom: 2rem;">
+              <div style="margin-bottom: 1.5rem;">
+                <h3 style="color: var(--color-primary); font-size: 1.125rem; margin-bottom: 0.5rem;">
+                  📧 Email
+                </h3>
+                <p style="color: var(--color-gray-700);">
+                  <a href="mailto:sales@alphagrid.co.za" style="color: var(--color-accent); font-weight: 500;">
+                    sales@alphagrid.co.za
+                  </a>
+                </p>
+              </div>
+              
+              <div style="margin-bottom: 1.5rem;">
+                <h3 style="color: var(--color-primary); font-size: 1.125rem; margin-bottom: 0.5rem;">
+                  📞 Phone
+                </h3>
+                <p style="color: var(--color-gray-700);">
+                  <a href="tel:+27650529081" style="color: var(--color-accent); font-weight: 500;">
+                    +27 65 052 9081
+                  </a> (Zebulion)
+                </p>
+              </div>
+              
+              <div>
+                <h3 style="color: var(--color-primary); font-size: 1.125rem; margin-bottom: 0.5rem;">
+                  🌐 Website
+                </h3>
+                <p style="color: var(--color-gray-700);">
+                  <a href="https://www.alphagrid.co.za" style="color: var(--color-accent); font-weight: 500;">
+                    www.alphagrid.co.za
+                  </a>
+                </p>
+              </div>
+            </div>
+            
+            <div style="background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 100%); 
+                        padding: 2rem; border-radius: 0.75rem; color: white;">
+              <h3 style="color: white; font-size: 1.25rem; margin-bottom: 1rem;">Business Hours</h3>
+              <p style="margin-bottom: 0.5rem;">Monday - Friday: 8:00 AM - 5:00 PM</p>
+              <p style="margin-bottom: 0.5rem;">Saturday: 9:00 AM - 1:00 PM</p>
+              <p>Sunday: Closed</p>
+              <p style="margin-top: 1rem; font-size: 0.875rem; opacity: 0.9;">
+                * Response times may vary. We typically respond within 24 hours during business days.
+              </p>
+            </div>
+            
+            <div style="margin-top: 2rem; text-align: center;">
+              <p style="color: var(--color-gray-600); margin-bottom: 1rem;">
+                Need a quote for a specific product?
+              </p>
+              <a href="quote.html" class="btn btn-primary btn-lg">
+                Request a Quote
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-section">
+        <h3>AlphaGrid</h3>
+        <p>
+          Electrotechnical Solutions<br>
+          Empowering Connectivity. Powering the Future.
+        </p>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <p><a href="index.html">Home</a></p>
+        <p><a href="products.html">Products</a></p>
+        <p><a href="about.html">About Us</a></p>
+        <p><a href="contact.html">Contact</a></p>
+        <p><a href="quote.html">Get Quote</a></p>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Products</h3>
+        <p><a href="products.html">Fibre Optics</a></p>
+        <p><a href="products.html">Active Equipment</a></p>
+        <p><a href="products.html">Power & Energy</a></p>
+        <p><a href="products.html">Fibre Management</a></p>
+        <p><a href="products.html">RF Products</a></p>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Contact Us</h3>
+        <p>
+          <strong>Email:</strong><br>
+          <a href="mailto:sales@alphagrid.co.za">sales@alphagrid.co.za</a>
+        </p>
+        <p>
+          <strong>Phone:</strong><br>
+          <a href="tel:+27650529081">+27 65 052 9081</a> (Zebulion)
+        </p>
+        <p>
+          <strong>Website:</strong><br>
+          <a href="https://www.alphagrid.co.za">www.alphagrid.co.za</a>
+        </p>
+      </div>
+    </div>
+    
+    <div class="container footer-bottom">
+      <p>&copy; 2026 AlphaGrid Electrotechnical Solutions. All rights reserved.</p>
+    </div>
+  </footer>
+  
+  <!-- JavaScript -->
+  <script src="assets/js/utils.js"></script>
+  <script src="assets/js/navigation.js"></script>
+  <script src="assets/js/animations.js"></script>
+  <script src="assets/js/products.js"></script>
+  <script src="assets/js/search.js"></script>
+  <script src="assets/js/forms.js"></script>
+</body>
+</html>

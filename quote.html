@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Request a quote for AlphaGrid products - fiber optics, active equipment, power systems, and more.">
+  <title>Request Quote | AlphaGrid Electrotechnical Solutions</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/animations.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo">
+        <img src="assets/images/logo.png" alt="AlphaGrid Logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline';">
+        <span>AlphaGrid</span>
+      </a>
+      
+      <!-- Desktop Navigation -->
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="products.html" class="nav-link">Products</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="quote.html" class="nav-link">Get Quote</a>
+      </nav>
+      
+      <!-- Search (Desktop) -->
+      <div class="search-container">
+        <input type="text" id="search-input" class="search-input" placeholder="Search products...">
+        <div id="search-results"></div>
+      </div>
+      
+      <!-- Mobile Menu Button -->
+      <button class="mobile-menu-btn" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav">
+      <a href="index.html" class="mobile-nav-link">Home</a>
+      <a href="products.html" class="mobile-nav-link">Products</a>
+      <a href="about.html" class="mobile-nav-link">About Us</a>
+      <a href="contact.html" class="mobile-nav-link">Contact</a>
+      <a href="quote.html" class="mobile-nav-link">Get Quote</a>
+    </nav>
+  </header>
+  
+  <!-- Main Content -->
+  <main class="main">
+    <!-- Page Header -->
+    <section class="hero" style="padding: 5rem 0;">
+      <div class="container hero-content">
+        <h1 class="hero-title fade-in">Request a Quote</h1>
+        <p class="hero-subtitle fade-in">
+          Tell us about your project and we'll provide a customized solution
+        </p>
+      </div>
+    </section>
+    
+    <!-- Quote Form -->
+    <section class="section">
+      <div class="container">
+        <div class="grid grid-cols-1 grid-cols-md-2" style="gap: 3rem;">
+          <!-- Form -->
+          <div class="fade-in-up">
+            <h2 style="font-size: 1.875rem; color: var(--color-primary); margin-bottom: 1.5rem;">Quote Request Form</h2>
+            <p style="color: var(--color-gray-600); margin-bottom: 2rem;">
+              Complete the form below with your project details. Our team will review your requirements 
+              and provide a detailed quote within 24-48 hours.
+            </p>
+            
+            <form id="quote-form">
+              <!-- Personal Information -->
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name" class="form-label required">Full Name</label>
+                  <input type="text" id="name" name="name" class="form-input" 
+                         placeholder="John Doe" data-validate="required" required>
+                  <div class="form-error"></div>
+                </div>
+                
+                <div class="form-group">
+                  <label for="email" class="form-label required">Email Address</label>
+                  <input type="email" id="email" name="email" class="form-input" 
+                         placeholder="john@example.com" data-validate="required|email" required>
+                  <div class="form-error"></div>
+                </div>
+              </div>
+              
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="phone" class="form-label required">Phone Number</label>
+                  <input type="tel" id="phone" name="phone" class="form-input" 
+                         placeholder="+27 65 052 9081" data-validate="required|phone" required>
+                  <div class="form-error"></div>
+                </div>
+                
+                <div class="form-group">
+                  <label for="company" class="form-label">Company Name</label>
+                  <input type="text" id="company" name="company" class="form-input" 
+                         placeholder="Your Company">
+                  <div class="form-error"></div>
+                </div>
+              </div>
+              
+              <!-- Product Information -->
+              <div class="form-group">
+                <label for="product" class="form-label required">Product of Interest</label>
+                <select id="product" name="product" class="form-select" data-validate="required" required>
+                  <option value="">Select a product...</option>
+                  <!-- Options will be populated by JavaScript from products.json -->
+                </select>
+                <div class="form-error"></div>
+              </div>
+              
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="quantity" class="form-label">Quantity</label>
+                  <input type="text" id="quantity" name="quantity" class="form-input" 
+                         placeholder="e.g., 100 units">
+                  <div class="form-error"></div>
+                </div>
+                
+                <div class="form-group">
+                  <label for="urgency" class="form-label">Urgency</label>
+                  <select id="urgency" name="urgency" class="form-select">
+                    <option value="normal">Normal (1-2 weeks)</option>
+                    <option value="urgent">Urgent (3-5 days)</option>
+                    <option value="asap">ASAP (1-2 days)</option>
+                  </select>
+                  <div class="form-error"></div>
+                </div>
+              </div>
+              
+              <!-- Project Details -->
+              <div class="form-group">
+                <label for="projectDetails" class="form-label required">Project Details</label>
+                <textarea id="projectDetails" name="projectDetails" class="form-textarea" 
+                          placeholder="Describe your project requirements, specifications, timeline, and any other relevant information..." 
+                          data-validate="required|minLength:20" required></textarea>
+                <div class="form-error"></div>
+              </div>
+              
+              <button type="submit" class="btn btn-accent btn-lg" style="width: 100%;">
+                Submit Quote Request
+              </button>
+              
+              <p style="margin-top: 1rem; font-size: 0.875rem; color: var(--color-gray-500); text-align: center;">
+                By submitting this form, you agree to be contacted regarding your quote request.
+              </p>
+            </form>
+          </div>
+          
+          <!-- Information Sidebar -->
+          <div class="fade-in-up">
+            <h2 style="font-size: 1.875rem; color: var(--color-primary); margin-bottom: 1.5rem;">What Happens Next?</h2>
+            
+            <div style="background: var(--color-gray-100); padding: 2rem; border-radius: 0.75rem; margin-bottom: 2rem;">
+              <div style="display: flex; gap: 1rem; margin-bottom: 1.5rem;">
+                <div style="font-size: 2rem;">1️⃣</div>
+                <div>
+                  <h3 style="color: var(--color-primary); margin-bottom: 0.5rem;">Request Received</h3>
+                  <p style="color: var(--color-gray-600); font-size: 0.875rem;">
+                    We'll acknowledge receipt of your quote request within a few hours.
+                  </p>
+                </div>
+              </div>
+              
+              <div style="display: flex; gap: 1rem; margin-bottom: 1.5rem;">
+                <div style="font-size: 2rem;">2️⃣</div>
+                <div>
+                  <h3 style="color: var(--color-primary); margin-bottom: 0.5rem;">Review & Analysis</h3>
+                  <p style="color: var(--color-gray-600); font-size: 0.875rem;">
+                    Our technical team will review your requirements and prepare a customized solution.
+                  </p>
+                </div>
+              </div>
+              
+              <div style="display: flex; gap: 1rem; margin-bottom: 1.5rem;">
+                <div style="font-size: 2rem;">3️⃣</div>
+                <div>
+                  <h3 style="color: var(--color-primary); margin-bottom: 0.5rem;">Detailed Quote</h3>
+                  <p style="color: var(--color-gray-600); font-size: 0.875rem;">
+                    You'll receive a comprehensive quote with pricing, specifications, and delivery timeline.
+                  </p>
+                </div>
+              </div>
+              
+              <div style="display: flex; gap: 1rem;">
+                <div style="font-size: 2rem;">4️⃣</div>
+                <div>
+                  <h3 style="color: var(--color-primary); margin-bottom: 0.5rem;">Consultation</h3>
+                  <p style="color: var(--color-gray-600); font-size: 0.875rem;">
+                    We'll schedule a call to discuss the solution and answer any questions you may have.
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            <div style="background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 100%); 
+                        padding: 2rem; border-radius: 0.75rem; color: white; margin-bottom: 2rem;">
+              <h3 style="color: white; font-size: 1.25rem; margin-bottom: 1rem;">Need Help?</h3>
+              <p style="margin-bottom: 1rem;">
+                Not sure which product is right for your project? Our technical team is here to help.
+              </p>
+              <a href="contact.html" class="btn btn-lg" style="background: white; color: var(--color-primary); width: 100%;">
+                Contact Our Team
+              </a>
+            </div>
+            
+            <div style="background: var(--color-gray-100); padding: 1.5rem; border-radius: 0.5rem;">
+              <h3 style="color: var(--color-primary); font-size: 1.125rem; margin-bottom: 1rem;">Quick Contact</h3>
+              <p style="color: var(--color-gray-700); font-size: 0.875rem; margin-bottom: 0.5rem;">
+                <strong>Email:</strong> <a href="mailto:sales@alphagrid.co.za" style="color: var(--color-accent);">sales@alphagrid.co.za</a>
+              </p>
+              <p style="color: var(--color-gray-700); font-size: 0.875rem;">
+                <strong>Phone:</strong> <a href="tel:+27650529081" style="color: var(--color-accent);">+27 65 052 9081</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Products CTA -->
+    <section class="section" style="background-color: var(--color-gray-100);">
+      <div class="container" style="text-align: center;">
+        <h2 class="section-title">Browse Our Products</h2>
+        <p class="section-subtitle">
+          Explore our complete catalog to find the right solution for your needs
+        </p>
+        <a href="products.html" class="btn btn-primary btn-lg">View All Products</a>
+      </div>
+    </section>
+  </main>
+  
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-section">
+        <h3>AlphaGrid</h3>
+        <p>
+          Electrotechnical Solutions<br>
+          Empowering Connectivity. Powering the Future.
+        </p>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <p><a href="index.html">Home</a></p>
+        <p><a href="products.html">Products</a></p>
+        <p><a href="about.html">About Us</a></p>
+        <p><a href="contact.html">Contact</a></p>
+        <p><a href="quote.html">Get Quote</a></p>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Products</h3>
+        <p><a href="products.html">Fibre Optics</a></p>
+        <p><a href="products.html">Active Equipment</a></p>
+        <p><a href="products.html">Power & Energy</a></p>
+        <p><a href="products.html">Fibre Management</a></p>
+        <p><a href="products.html">RF Products</a></p>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Contact Us</h3>
+        <p>
+          <strong>Email:</strong><br>
+          <a href="mailto:sales@alphagrid.co.za">sales@alphagrid.co.za</a>
+        </p>
+        <p>
+          <strong>Phone:</strong><br>
+          <a href="tel:+27650529081">+27 65 052 9081</a> (Zebulion)
+        </p>
+        <p>
+          <strong>Website:</strong><br>
+          <a href="https://www.alphagrid.co.za">www.alphagrid.co.za</a>
+        </p>
+      </div>
+    </div>
+    
+    <div class="container footer-bottom">
+      <p>&copy; 2026 AlphaGrid Electrotechnical Solutions. All rights reserved.</p>
+    </div>
+  </footer>
+  
+  <!-- JavaScript -->
+  <script src="assets/js/utils.js"></script>
+  <script src="assets/js/navigation.js"></script>
+  <script src="assets/js/animations.js"></script>
+  <script src="assets/js/products.js"></script>
+  <script src="assets/js/search.js"></script>
+  <script src="assets/js/forms.js"></script>
+</body>
+</html>

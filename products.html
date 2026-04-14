@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse AlphaGrid's complete catalog of electrotechnical solutions - fiber optics, active equipment, power systems, and RF products.">
+  <title>Products Catalog | AlphaGrid Electrotechnical Solutions</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/animations.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="index.html" class="logo">
+        <img src="assets/images/logo.png" alt="AlphaGrid Logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='inline';">
+        <span>AlphaGrid</span>
+      </a>
+      
+      <!-- Desktop Navigation -->
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="products.html" class="nav-link">Products</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="quote.html" class="nav-link">Get Quote</a>
+      </nav>
+      
+      <!-- Search (Desktop) -->
+      <div class="search-container">
+        <input type="text" id="search-input" class="search-input" placeholder="Search products...">
+        <div id="search-results"></div>
+      </div>
+      
+      <!-- Mobile Menu Button -->
+      <button class="mobile-menu-btn" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav">
+      <a href="index.html" class="mobile-nav-link">Home</a>
+      <a href="products.html" class="mobile-nav-link">Products</a>
+      <a href="about.html" class="mobile-nav-link">About Us</a>
+      <a href="contact.html" class="mobile-nav-link">Contact</a>
+      <a href="quote.html" class="mobile-nav-link">Get Quote</a>
+    </nav>
+  </header>
+  
+  <!-- Main Content -->
+  <main class="main">
+    <!-- Page Header -->
+    <section class="section" style="padding-top: 3rem; padding-bottom: 2rem;">
+      <div class="container">
+        <h1 class="section-title">Product Catalog</h1>
+        <p class="section-subtitle">
+          Explore our comprehensive range of electrotechnical solutions
+        </p>
+      </div>
+    </section>
+    
+    <!-- Category Filters -->
+    <section style="padding-bottom: 2rem;">
+      <div class="container">
+        <div id="category-filters" class="filter-container">
+          <!-- Filters will be populated by JavaScript -->
+          <button class="filter-btn active" data-category="all">All Products</button>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Products Grid -->
+    <section class="section" style="padding-top: 0;">
+      <div class="container">
+        <div id="products-grid" class="grid grid-cols-1 grid-cols-sm-2 grid-cols-lg-3">
+          <!-- Products will be populated by JavaScript -->
+          <div class="loading-container">
+            <div class="loading"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-section">
+        <h3>AlphaGrid</h3>
+        <p>
+          Electrotechnical Solutions<br>
+          Empowering Connectivity. Powering the Future.
+        </p>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <p><a href="index.html">Home</a></p>
+        <p><a href="products.html">Products</a></p>
+        <p><a href="about.html">About Us</a></p>
+        <p><a href="contact.html">Contact</a></p>
+        <p><a href="quote.html">Get Quote</a></p>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Products</h3>
+        <p><a href="products.html">Fibre Optics</a></p>
+        <p><a href="products.html">Active Equipment</a></p>
+        <p><a href="products.html">Power & Energy</a></p>
+        <p><a href="products.html">Fibre Management</a></p>
+        <p><a href="products.html">RF Products</a></p>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Contact Us</h3>
+        <p>
+          <strong>Email:</strong><br>
+          <a href="mailto:sales@alphagrid.co.za">sales@alphagrid.co.za</a>
+        </p>
+        <p>
+          <strong>Phone:</strong><br>
+          <a href="tel:+27650529081">+27 65 052 9081</a> (Zebulion)
+        </p>
+        <p>
+          <strong>Website:</strong><br>
+          <a href="https://www.alphagrid.co.za">www.alphagrid.co.za</a>
+        </p>
+      </div>
+    </div>
+    
+    <div class="container footer-bottom">
+      <p>&copy; 2026 AlphaGrid Electrotechnical Solutions. All rights reserved.</p>
+    </div>
+  </footer>
+  
+  <!-- JavaScript -->
+  <script src="assets/js/utils.js"></script>
+  <script src="assets/js/navigation.js"></script>
+  <script src="assets/js/animations.js"></script>
+  <script src="assets/js/products.js"></script>
+  <script src="assets/js/search.js"></script>
+</body>
+</html>

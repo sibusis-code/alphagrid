@@ -1,0 +1,330 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Drop & Micro Cables",
+      "category": "Fibre Optics",
+      "description": "High-quality drop and micro fiber optic cables designed for last-mile connectivity and indoor installations.",
+      "specifications": [
+        "Single-mode and multi-mode options",
+        "Indoor/outdoor rated",
+        "Flexible design for tight spaces",
+        "UV resistant outer jacket"
+      ],
+      "features": [
+        "Low attenuation",
+        "High bandwidth capacity",
+        "Easy installation",
+        "Cost-effective solution"
+      ],
+      "imagePath": "assets/images/products/drop-micro-cables.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Heavy-Duty Duct Cables",
+      "category": "Fibre Optics",
+      "description": "Robust fiber optic cables engineered for underground duct installations and harsh environments.",
+      "specifications": [
+        "High fiber count options (up to 288 fibers)",
+        "Crush and rodent resistant",
+        "Water-blocking technology",
+        "Temperature range: -40°C to +70°C"
+      ],
+      "features": [
+        "Enhanced mechanical protection",
+        "Long-distance transmission",
+        "Moisture resistant",
+        "Suitable for direct burial"
+      ],
+      "imagePath": "assets/images/products/duct-cables.jpg"
+    },
+    {
+      "id": 3,
+      "name": "ADSS (Aerial) Cables",
+      "category": "Fibre Optics",
+      "description": "All-Dielectric Self-Supporting aerial fiber optic cables for overhead installation without metallic components.",
+      "specifications": [
+        "Span lengths up to 200m",
+        "Fiber count: 12 to 144 fibers",
+        "Dielectric construction (non-conductive)",
+        "Wind and ice load resistant"
+      ],
+      "features": [
+        "No grounding required",
+        "Lightning strike resistant",
+        "Easy aerial installation",
+        "Reduced installation costs"
+      ],
+      "imagePath": "assets/images/products/adss-cables.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Custom Fiber Coloring",
+      "category": "Fibre Optics",
+      "description": "Customized fiber optic cable color coding solutions to meet specific network identification requirements.",
+      "specifications": [
+        "TIA/EIA-598 standard colors",
+        "Custom color schemes available",
+        "Permanent color coding",
+        "Available for all cable types"
+      ],
+      "features": [
+        "Easy fiber identification",
+        "Reduces installation errors",
+        "Customizable to client needs",
+        "Industry standard compliance"
+      ],
+      "imagePath": "assets/images/products/fiber-coloring.jpg"
+    },
+    {
+      "id": 5,
+      "name": "GPON (OLT/ONT)",
+      "category": "Active Equipment",
+      "description": "Gigabit Passive Optical Network equipment including Optical Line Terminals and Optical Network Terminals for high-speed fiber access networks.",
+      "specifications": [
+        "Up to 2.5 Gbps downstream, 1.25 Gbps upstream",
+        "Split ratio up to 1:128",
+        "Management via SNMP, Web GUI",
+        "Multiple service support (data, voice, video)"
+      ],
+      "features": [
+        "Cost-effective fiber deployment",
+        "High bandwidth capacity",
+        "Scalable architecture",
+        "Remote management capabilities"
+      ],
+      "imagePath": "assets/images/products/gpon.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Transceivers (SFP/DWDM)",
+      "category": "Active Equipment",
+      "description": "Small Form-factor Pluggable and Dense Wavelength Division Multiplexing transceivers for high-speed optical networking.",
+      "specifications": [
+        "Speeds: 1G, 10G, 25G, 40G, 100G",
+        "Single-mode and multi-mode",
+        "Hot-swappable design",
+        "MSA compliant"
+      ],
+      "features": [
+        "Wide compatibility",
+        "Low power consumption",
+        "Extended temperature range",
+        "Digital diagnostics support"
+      ],
+      "imagePath": "assets/images/products/transceivers.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Optical Switching",
+      "category": "Active Equipment",
+      "description": "High-performance optical switches for enterprise and carrier networks with advanced Layer 2/3 features.",
+      "specifications": [
+        "Port density: 24 to 48 ports",
+        "10GbE and 100GbE uplinks",
+        "Managed and unmanaged options",
+        "Redundant power supplies"
+      ],
+      "features": [
+        "Advanced QoS",
+        "VLAN support",
+        "Energy efficient",
+        "Stack-able design"
+      ],
+      "imagePath": "assets/images/products/optical-switching.jpg"
+    },
+    {
+      "id": 8,
+      "name": "IoT Connectivity Solutions",
+      "category": "Active Equipment",
+      "description": "Specialized connectivity equipment for Internet of Things deployments, enabling secure and reliable device communication.",
+      "specifications": [
+        "Multiple protocol support (LoRaWAN, NB-IoT, LTE-M)",
+        "Edge computing capabilities",
+        "Secure encrypted communication",
+        "Cloud integration ready"
+      ],
+      "features": [
+        "Low power consumption",
+        "Scalable architecture",
+        "Remote device management",
+        "Real-time data processing"
+      ],
+      "imagePath": "assets/images/products/iot-connectivity.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Lithium-Ion Batteries",
+      "category": "Power & Energy",
+      "description": "High-performance lithium-ion battery systems from Narada, providing reliable backup power for critical infrastructure.",
+      "specifications": [
+        "Capacity range: 50Ah to 1000Ah",
+        "Voltage: 48VDC, 110VDC, 220VDC",
+        "Cycle life: >6000 cycles @ 80% DOD",
+        "Operating temp: -20°C to +55°C"
+      ],
+      "features": [
+        "Long service life",
+        "Fast charging capability",
+        "Built-in BMS (Battery Management System)",
+        "Environmentally friendly"
+      ],
+      "partner": "Narada",
+      "imagePath": "assets/images/products/lithium-batteries.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Delta Rectifiers",
+      "category": "Power & Energy",
+      "description": "High-efficiency AC/DC power rectifiers for telecom and industrial applications, ensuring stable DC power supply.",
+      "specifications": [
+        "Output: 48VDC, 110VDC, 220VDC",
+        "Efficiency: >95%",
+        "Power range: 1kW to 10kW per module",
+        "N+1 redundancy support"
+      ],
+      "features": [
+        "High reliability",
+        "Modular design",
+        "Active PFC (Power Factor Correction)",
+        "Remote monitoring"
+      ],
+      "imagePath": "assets/images/products/delta-rectifiers.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Inverters",
+      "category": "Power & Energy",
+      "description": "Pure sine wave inverters converting DC power to AC for uninterrupted power supply in critical applications.",
+      "specifications": [
+        "Output: 220VAC, 50Hz/60Hz",
+        "Power range: 1kVA to 200kVA",
+        "Pure sine wave output",
+        "Automatic voltage regulation"
+      ],
+      "features": [
+        "High conversion efficiency",
+        "Overload protection",
+        "Low harmonic distortion",
+        "Silent operation"
+      ],
+      "imagePath": "assets/images/products/inverters.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Cooling Systems",
+      "category": "Power & Energy",
+      "description": "Advanced thermal management solutions for equipment rooms and data centers, maintaining optimal operating temperatures.",
+      "specifications": [
+        "Cooling capacity: 5kW to 50kW",
+        "Types: air-cooled, water-cooled",
+        "Energy efficiency ratio (EER): >3.0",
+        "Intelligent temperature control"
+      ],
+      "features": [
+        "Energy efficient operation",
+        "Redundant design options",
+        "Remote monitoring and control",
+        "Low noise operation"
+      ],
+      "imagePath": "assets/images/products/cooling-systems.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Connectors & Adapters",
+      "category": "Fibre Management",
+      "description": "Comprehensive range of fiber optic connectors and adapters from leading manufacturers including Huber+Suhner and Emtelle.",
+      "specifications": [
+        "Connector types: SC, LC, FC, ST, MPO/MTP",
+        "Single-mode and multi-mode",
+        "UPC and APC polish",
+        "Low insertion loss (<0.2dB)"
+      ],
+      "features": [
+        "High precision alignment",
+        "Durable construction",
+        "Easy installation",
+        "Wide compatibility"
+      ],
+      "partner": "Huber+Suhner, Emtelle",
+      "imagePath": "assets/images/products/connectors-adapters.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Passive Components",
+      "category": "Fibre Management",
+      "description": "Essential fiber optic passive components including splitters, couplers, and attenuators for network optimization.",
+      "specifications": [
+        "Splitter ratios: 1x2 to 1x64",
+        "Wavelength: 1310nm, 1550nm",
+        "Operating temperature: -40°C to +85°C",
+        "Low PDL (Polarization Dependent Loss)"
+      ],
+      "features": [
+        "High reliability",
+        "Compact design",
+        "Wide operating wavelength",
+        "Excellent environmental stability"
+      ],
+      "imagePath": "assets/images/products/passive-components.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Distribution Racks",
+      "category": "Fibre Management",
+      "description": "Professional fiber optic distribution frames and racks for organized cable management in data centers and telecom facilities.",
+      "specifications": [
+        "Rack units: 19-inch standard",
+        "Capacity: up to 576 fibers",
+        "Wall-mount and floor-standing options",
+        "Modular tray system"
+      ],
+      "features": [
+        "Easy fiber access",
+        "Cable management system",
+        "Scalable design",
+        "Robust steel construction"
+      ],
+      "partner": "Huber+Suhner, Emtelle",
+      "imagePath": "assets/images/products/distribution-racks.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Specialized RF Laboratories",
+      "category": "RF Products",
+      "description": "Custom-built RF testing and measurement laboratories equipped with state-of-the-art equipment for comprehensive radio frequency analysis.",
+      "specifications": [
+        "Frequency range: DC to 110 GHz",
+        "Network analyzers, spectrum analyzers",
+        "Anechoic chamber testing",
+        "EMC/EMI compliance testing"
+      ],
+      "features": [
+        "Precision measurements",
+        "Calibrated equipment",
+        "ISO certified testing",
+        "Comprehensive reporting"
+      ],
+      "imagePath": "assets/images/products/rf-laboratories.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Local Assembly & Testing",
+      "category": "RF Products",
+      "description": "In-house RF product assembly, integration, and quality testing services supporting B-BBEE requirements and local manufacturing.",
+      "specifications": [
+        "Custom RF cable assemblies",
+        "Antenna integration",
+        "Quality testing per IEC standards",
+        "B-BBEE Level compliance support"
+      ],
+      "features": [
+        "Local manufacturing support",
+        "Quick turnaround times",
+        "Quality assured",
+        "Custom solutions"
+      ],
+      "imagePath": "assets/images/products/local-assembly.jpg"
+    }
+  ]
+}
