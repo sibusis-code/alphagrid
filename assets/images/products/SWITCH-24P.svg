@@ -1,0 +1,73 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f8fafc"/>
+  
+  <!-- Network Switch -->
+  <g transform="translate(50, 100)">
+    <!-- Main chassis -->
+    <rect width="300" height="100" fill="#2a2a2a" stroke="#003D6A" stroke-width="2" rx="3"/>
+    
+    <!-- Brand strip -->
+    <rect x="0" y="0" width="300" height="15" fill="#003D6A" rx="3"/>
+    <text x="150" y="11" font-family="Arial" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="bold">
+      24-Port Gigabit Switch
+    </text>
+    
+    <!-- Port grid -->
+    <g transform="translate(15, 30)">
+      <!-- Top row (12 ports) -->
+      <g id="portRow1">
+        <rect x="0" y="0" width="15" height="20" fill="#8CC63F" stroke="#003D6A" stroke-width="1" rx="1"/>
+        <rect x="20" y="0" width="15" height="20" fill="#8CC63F" stroke="#003D6A" stroke-width="1" rx="1"/>
+        <rect x="40" y="0" width="15" height="20" fill="#8CC63F" stroke="#003D6A" stroke-width="1" rx="1"/>
+        <rect x="60" y="0" width="15" height="20" fill="#8CC63F" stroke="#003D6A" stroke-width="1" rx="1"/>
+        <rect x="80" y="0" width="15" height="20" fill="#8CC63F" stroke="#003D6A" stroke-width="1" rx="1"/>
+        <rect x="100" y="0" width="15" height="20" fill="#8CC63F" stroke="#003D6A" stroke-width="1" rx="1"/>
+        <rect x="120" y="0" width="15" height="20" fill="#8CC63F" stroke="#003D6A" stroke-width="1" rx="1"/>
+        <rect x="140" y="0" width="15" height="20" fill="#8CC63F" stroke="#003D6A" stroke-width="1" rx="1"/>
+        <rect x="160" y="0" width="15" height="20" fill="#8CC63F" stroke="#003D6A" stroke-width="1" rx="1"/>
+        <rect x="180" y="0" width="15" height="20" fill="#8CC63F" stroke="#003D6A" stroke-width="1" rx="1"/>
+        <rect x="200" y="0" width="15" height="20" fill="#8CC63F" stroke="#003D6A" stroke-width="1" rx="1"/>
+        <rect x="220" y="0" width="15" height="20" fill="#8CC63F" stroke="#003D6A" stroke-width="1" rx="1"/>
+        
+        <!-- LEDs on ports -->
+        <circle cx="7.5" cy="7" r="2" fill="#00FF00" opacity="0.8"/>
+        <circle cx="27.5" cy="7" r="2" fill="#00FF00" opacity="0.8"/>
+        <circle cx="47.5" cy="7" r="2" fill="#FFA500" opacity="0.8"/>
+      </g>
+      
+      <!-- Bottom row (12 ports) -->
+      <g transform="translate(0, 30)">
+        <rect x="0" y="0" width="15" height="20" fill="#8CC63F" stroke="#003D6A" stroke-width="1" rx="1"/>
+        <rect x="20" y="0" width="15" height="20" fill="#8CC63F" stroke="#003D6A" stroke-width="1" rx="1"/>
+        <rect x="40" y="0" width="15" height="20" fill="#8CC63F" stroke="#003D6A" stroke-width="1" rx="1"/>
+        <rect x="60" y="0" width="15" height="20" fill="#8CC63F" stroke="#003D6A" stroke-width="1" rx="1"/>
+        <rect x="80" y="0" width="15" height="20" fill="#8CC63F" stroke="#003D6A" stroke-width="1" rx="1"/>
+        <rect x="100" y="0" width="15" height="20" fill="#8CC63F" stroke="#003D6A" stroke-width="1" rx="1"/>
+        <rect x="120" y="0" width="15" height="20" fill="#8CC63F" stroke="#003D6A" stroke-width="1" rx="1"/>
+        <rect x="140" y="0" width="15" height="20" fill="#8CC63F" stroke="#003D6A" stroke-width="1" rx="1"/>
+        <rect x="160" y="0" width="15" height="20" fill="#8CC63F" stroke="#003D6A" stroke-width="1" rx="1"/>
+        <rect x="180" y="0" width="15" height="20" fill="#8CC63F" stroke="#003D6A" stroke-width="1" rx="1"/>
+        
+        <!-- SFP+ uplink ports -->
+        <rect x="200" y="0" width="15" height="20" fill="#4A90E2" stroke="#003D6A" stroke-width="1" rx="1"/>
+        <rect x="220" y="0" width="15" height="20" fill="#4A90E2" stroke="#003D6A" stroke-width="1" rx="1"/>
+        
+        <circle cx="7.5" cy="7" r="2" fill="#00FF00" opacity="0.8"/>
+        <circle cx="207.5" cy="7" r="2" fill="#4A90E2" opacity="0.8"/>
+      </g>
+    </g>
+    
+    <!-- Status panel -->
+    <g transform="translate(250, 30)">
+      <text x="0" y="10" font-family="Arial" font-size="7" fill="#8CC63F">PWR</text>
+      <circle cx="25" cy="7" r="3" fill="#00FF00"/>
+    </g>
+  </g>
+  
+  <!-- Network illustration -->
+  <g opacity="0.3" transform="translate(100, 240)">
+    <circle cx="50" cy="20" r="12" fill="none" stroke="#8CC63F" stroke-width="2"/>
+    <circle cx="150" cy="20" r="12" fill="none" stroke="#8CC63F" stroke-width="2"/>
+    <line x1="62" y1="20" x2="138" y2="20" stroke="#8CC63F" stroke-width="2"/>
+  </g>
+</svg>

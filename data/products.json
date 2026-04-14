@@ -17,7 +17,7 @@
         "Easy installation",
         "Cost-effective solution"
       ],
-      "imagePath": "assets/images/products/drop-micro-cables.jpg"
+      "imagePath": "assets/images/products/FIBER-CABLE.svg"
     },
     {
       "id": 2,
@@ -36,7 +36,7 @@
         "Moisture resistant",
         "Suitable for direct burial"
       ],
-      "imagePath": "assets/images/products/duct-cables.jpg"
+      "imagePath": "assets/images/products/FIBER-CABLE.svg"
     },
     {
       "id": 3,
@@ -55,7 +55,7 @@
         "Easy aerial installation",
         "Reduced installation costs"
       ],
-      "imagePath": "assets/images/products/adss-cables.jpg"
+      "imagePath": "assets/images/products/FIBER-CABLE.svg"
     },
     {
       "id": 4,
@@ -74,7 +74,7 @@
         "Customizable to client needs",
         "Industry standard compliance"
       ],
-      "imagePath": "assets/images/products/fiber-coloring.jpg"
+      "imagePath": "assets/images/products/FIBER-CABLE.svg"
     },
     {
       "id": 5,
@@ -93,7 +93,7 @@
         "Scalable architecture",
         "Remote management capabilities"
       ],
-      "imagePath": "assets/images/products/gpon.jpg"
+      "imagePath": "assets/images/products/GPON.svg"
     },
     {
       "id": 6,
@@ -112,7 +112,7 @@
         "Extended temperature range",
         "Digital diagnostics support"
       ],
-      "imagePath": "assets/images/products/transceivers.jpg"
+      "imagePath": "assets/images/products/ONT-4GE.svg"
     },
     {
       "id": 7,
@@ -131,7 +131,7 @@
         "Energy efficient",
         "Stack-able design"
       ],
-      "imagePath": "assets/images/products/optical-switching.jpg"
+      "imagePath": "assets/images/products/SWITCH-24P.svg"
     },
     {
       "id": 8,
@@ -150,7 +150,7 @@
         "Remote device management",
         "Real-time data processing"
       ],
-      "imagePath": "assets/images/products/iot-connectivity.jpg"
+      "imagePath": "assets/images/products/ONT-4GE.svg"
     },
     {
       "id": 9,
@@ -170,7 +170,7 @@
         "Environmentally friendly"
       ],
       "partner": "Narada",
-      "imagePath": "assets/images/products/lithium-batteries.jpg"
+      "imagePath": "assets/images/products/BATTERY.svg"
     },
     {
       "id": 10,
@@ -189,7 +189,7 @@
         "Active PFC (Power Factor Correction)",
         "Remote monitoring"
       ],
-      "imagePath": "assets/images/products/delta-rectifiers.jpg"
+      "imagePath": "assets/images/products/BATTERY.svg"
     },
     {
       "id": 11,
@@ -208,7 +208,7 @@
         "Low harmonic distortion",
         "Silent operation"
       ],
-      "imagePath": "assets/images/products/inverters.jpg"
+      "imagePath": "assets/images/products/BATTERY.svg"
     },
     {
       "id": 12,
@@ -227,7 +227,7 @@
         "Remote monitoring and control",
         "Low noise operation"
       ],
-      "imagePath": "assets/images/products/cooling-systems.jpg"
+      "imagePath": "assets/images/products/BATTERY.svg"
     },
     {
       "id": 13,
@@ -247,7 +247,7 @@
         "Wide compatibility"
       ],
       "partner": "Huber+Suhner, Emtelle",
-      "imagePath": "assets/images/products/connectors-adapters.jpg"
+      "imagePath": "assets/images/products/FIBER-CABLE.svg"
     },
     {
       "id": 14,
@@ -266,7 +266,7 @@
         "Wide operating wavelength",
         "Excellent environmental stability"
       ],
-      "imagePath": "assets/images/products/passive-components.jpg"
+      "imagePath": "assets/images/products/FIBER-CABLE.svg"
     },
     {
       "id": 15,
@@ -286,7 +286,7 @@
         "Robust steel construction"
       ],
       "partner": "Huber+Suhner, Emtelle",
-      "imagePath": "assets/images/products/distribution-racks.jpg"
+      "imagePath": "assets/images/products/FIBER-CABLE.svg"
     },
     {
       "id": 16,
@@ -305,7 +305,7 @@
         "ISO certified testing",
         "Comprehensive reporting"
       ],
-      "imagePath": "assets/images/products/rf-laboratories.jpg"
+      "imagePath": "assets/images/products/SWITCH-24P.svg"
     },
     {
       "id": 17,
@@ -324,7 +324,7 @@
         "Quality assured",
         "Custom solutions"
       ],
-      "imagePath": "assets/images/products/local-assembly.jpg"
+      "imagePath": "assets/images/products/SWITCH-24P.svg"
     }
   ]
 }

@@ -1,0 +1,53 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#f8fafc"/>
+  
+  <!-- Fiber Optic Cable Spool -->
+  <g transform="translate(100, 80)">
+    <!-- Spool side -->
+    <ellipse cx="100" cy="70" rx="80" ry="20" fill="#d0d0d0" stroke="#003D6A" stroke-width="2"/>
+    
+    <!-- Cable layers -->
+    <g>
+      <ellipse cx="100" cy="60" rx="70" ry="18" fill="#FFA500"/>
+      <ellipse cx="100" cy="50" rx="60" ry="16" fill="#FFB733"/>
+      <ellipse cx="100" cy="40" rx="50" ry="14" fill="#FFC966"/>
+      <ellipse cx="100" cy="30" rx="40" ry="12" fill="#FFDB99"/>
+      <ellipse cx="100" cy="20" rx="30" ry="10" fill="#FFEDCC"/>
+    </g>
+    
+    <!-- Inner core -->
+    <ellipse cx="100" cy="20" rx="20" ry="7" fill="#666"/>
+    
+    <!-- Fiber ends -->
+    <g transform="translate(180, 65)">
+      <!-- Multiple fiber strands -->
+      <line x1="0" y1="0" x2="15" y2="-5" stroke="#8CC63F" stroke-width="2"/>
+      <line x1="0" y1="0" x2="15" y2="0" stroke="#4A90E2" stroke-width="2"/>
+      <line x1="0" y1="0" x2="15" y2="5" stroke="#FFA500" stroke-width="2"/>
+      <line x1="0" y1="0" x2="15" y2="10" stroke="#8CC63F" stroke-width="2"/>
+      
+      <circle cx="15" cy="-5" r="2" fill="#8CC63F"/>
+      <circle cx="15" cy="0" r="2" fill="#4A90E2"/>
+      <circle cx="15" cy="5" r="2" fill="#FFA500"/>
+      <circle cx="15" cy="10" r="2" fill="#8CC63F"/>
+    </g>
+  </g>
+  
+  <!-- Label -->
+  <g transform="translate(120, 180)">
+    <rect width="160" height="40" fill="#003D6A" rx="4"/>
+    <text x="80" y="18" font-family="Arial" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="bold">
+      Single Mode Fiber
+    </text>
+    <text x="80" y="32" font-family="Arial" font-size="10" fill="#8CC63F" text-anchor="middle">
+      OS2 | 9/125μm | 2km
+    </text>
+  </g>
+  
+  <!-- Fiber illustration -->
+  <g opacity="0.4" transform="translate(50, 240)">
+    <text x="150" y="15" font-family="Arial" font-size="10" fill="#666" text-anchor="middle">
+      Low Loss | High Bandwidth
+    </text>
+  </g>
+</svg>

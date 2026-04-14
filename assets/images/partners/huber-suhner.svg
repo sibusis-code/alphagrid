@@ -1,0 +1,11 @@
+<svg width="200" height="80" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="80" fill="#f8f9fa" rx="4"/>
+  <circle cx="35" cy="40" r="15" fill="none" stroke="#E30613" stroke-width="3"/>
+  <circle cx="35" cy="40" r="8" fill="#E30613"/>
+  <text x="60" y="35" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#E30613">
+    HUBER+SUHNER
+  </text>
+  <text x="60" y="52" font-family="Arial, sans-serif" font-size="9" fill="#666">
+    Connecting Excellence
+  </text>
+</svg>

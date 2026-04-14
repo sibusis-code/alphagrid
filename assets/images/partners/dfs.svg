@@ -1,0 +1,9 @@
+<svg width="200" height="80" viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="80" fill="#f8f9fa" rx="4"/>
+  <text x="100" y="35" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#003D6A" text-anchor="middle">
+    DFS
+  </text>
+  <text x="100" y="55" font-family="Arial, sans-serif" font-size="10" fill="#666" text-anchor="middle">
+    Manufactured by AlphaGrid
+  </text>
+</svg>
