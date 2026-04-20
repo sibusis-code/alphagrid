@@ -50,6 +50,22 @@
   .footer-content {
     gap: var(--space-6);
   }
+
+  .hero-home {
+    min-height: 540px;
+    background-position: 62% center;
+  }
+
+  .chatbot-trigger {
+    right: var(--space-4);
+    bottom: var(--space-4);
+  }
+
+  .chatbot-panel {
+    right: var(--space-4);
+    bottom: calc(var(--space-4) + 70px);
+    width: min(360px, calc(100vw - 1.5rem));
+  }
 }
 
 /* Tablet (640px - 1023px) */
