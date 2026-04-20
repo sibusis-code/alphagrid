@@ -3,6 +3,11 @@
 let allProducts = [];
 let currentFilter = 'all';
 
+function getSafeImagePath(path) {
+  if (!path) return 'assets/images/products/placeholder.jpg';
+  return encodeURI(path);
+}
+
 // Load products from JSON
 async function loadProducts() {
   try {
@@ -46,7 +51,7 @@ function createProductCard(product) {
   card.dataset.productId = product.id;
   
   // Create a placeholder or use actual image
-  const imageSrc = product.imagePath || 'assets/images/products/placeholder.jpg';
+  const imageSrc = getSafeImagePath(product.imagePath);
   
   card.innerHTML = `
     <div class="product-card-image">
@@ -157,7 +162,7 @@ function showProductDetails(productId) {
   modalBody.innerHTML = `
     <div class="product-detail">
       <div class="product-detail-image" style="margin-bottom: 1.5rem;">
-        <img src="${product.imagePath || 'assets/images/products/placeholder.jpg'}" 
+        <img src="${getSafeImagePath(product.imagePath)}" 
              alt="${product.name}" 
              style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 0.5rem;"
              onerror="this.style.display='none'">

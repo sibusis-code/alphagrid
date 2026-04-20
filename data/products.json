@@ -17,7 +17,7 @@
         "Easy installation",
         "Cost-effective solution"
       ],
-      "imagePath": "assets/images/products/FIBER-CABLE.svg"
+      "imagePath": "AlphaGrid Pics/Fibre Optic Cable.jpg"
     },
     {
       "id": 2,
@@ -36,7 +36,7 @@
         "Moisture resistant",
         "Suitable for direct burial"
       ],
-      "imagePath": "assets/images/products/FIBER-CABLE.svg"
+      "imagePath": "AlphaGrid Pics/Fibre Optic Cable2.jpg"
     },
     {
       "id": 3,
@@ -55,7 +55,7 @@
         "Easy aerial installation",
         "Reduced installation costs"
       ],
-      "imagePath": "assets/images/products/FIBER-CABLE.svg"
+      "imagePath": "AlphaGrid Pics/Pre-Terminated Solutions.jpg"
     },
     {
       "id": 4,
@@ -74,7 +74,7 @@
         "Customizable to client needs",
         "Industry standard compliance"
       ],
-      "imagePath": "assets/images/products/FIBER-CABLE.svg"
+      "imagePath": "AlphaGrid Pics/Field Installable Connectors2.jpg"
     },
     {
       "id": 5,
@@ -93,7 +93,7 @@
         "Scalable architecture",
         "Remote management capabilities"
       ],
-      "imagePath": "assets/images/products/GPON.svg"
+      "imagePath": "AlphaGrid Pics/Enclosures.jpg"
     },
     {
       "id": 6,
@@ -112,7 +112,7 @@
         "Extended temperature range",
         "Digital diagnostics support"
       ],
-      "imagePath": "assets/images/products/ONT-4GE.svg"
+      "imagePath": "AlphaGrid Pics/RF Connectors.webp"
     },
     {
       "id": 7,
@@ -131,7 +131,7 @@
         "Energy efficient",
         "Stack-able design"
       ],
-      "imagePath": "assets/images/products/SWITCH-24P.svg"
+      "imagePath": "AlphaGrid Pics/Switchgear.jpg"
     },
     {
       "id": 8,
@@ -150,7 +150,7 @@
         "Remote device management",
         "Real-time data processing"
       ],
-      "imagePath": "assets/images/products/ONT-4GE.svg"
+      "imagePath": "AlphaGrid Pics/Towers & Masts.webp"
     },
     {
       "id": 9,
@@ -170,7 +170,7 @@
         "Environmentally friendly"
       ],
       "partner": "Narada",
-      "imagePath": "assets/images/products/BATTERY.svg"
+      "imagePath": "AlphaGrid Pics/Solar Battery.webp"
     },
     {
       "id": 10,
@@ -189,7 +189,7 @@
         "Active PFC (Power Factor Correction)",
         "Remote monitoring"
       ],
-      "imagePath": "assets/images/products/BATTERY.svg"
+      "imagePath": "AlphaGrid Pics/DC Power Systems.jpg"
     },
     {
       "id": 11,
@@ -208,7 +208,7 @@
         "Low harmonic distortion",
         "Silent operation"
       ],
-      "imagePath": "assets/images/products/BATTERY.svg"
+      "imagePath": "AlphaGrid Pics/Invertor.webp"
     },
     {
       "id": 12,
@@ -227,7 +227,7 @@
         "Remote monitoring and control",
         "Low noise operation"
       ],
-      "imagePath": "assets/images/products/BATTERY.svg"
+      "imagePath": "AlphaGrid Pics/Climate Control.png"
     },
     {
       "id": 13,
@@ -247,7 +247,7 @@
         "Wide compatibility"
       ],
       "partner": "Huber+Suhner, Emtelle",
-      "imagePath": "assets/images/products/FIBER-CABLE.svg"
+      "imagePath": "AlphaGrid Pics/Connectors & Adapters.avif"
     },
     {
       "id": 14,
@@ -266,7 +266,7 @@
         "Wide operating wavelength",
         "Excellent environmental stability"
       ],
-      "imagePath": "assets/images/products/FIBER-CABLE.svg"
+      "imagePath": "AlphaGrid Pics/Splitter and Tapper.jpg"
     },
     {
       "id": 15,
@@ -286,7 +286,7 @@
         "Robust steel construction"
       ],
       "partner": "Huber+Suhner, Emtelle",
-      "imagePath": "assets/images/products/FIBER-CABLE.svg"
+      "imagePath": "AlphaGrid Pics/Patch Panels.avif"
     },
     {
       "id": 16,
@@ -305,7 +305,7 @@
         "ISO certified testing",
         "Comprehensive reporting"
       ],
-      "imagePath": "assets/images/products/SWITCH-24P.svg"
+      "imagePath": "AlphaGrid Pics/Test Equipment.jpg"
     },
     {
       "id": 17,
@@ -324,7 +324,7 @@
         "Quality assured",
         "Custom solutions"
       ],
-      "imagePath": "assets/images/products/SWITCH-24P.svg"
+      "imagePath": "AlphaGrid Pics/Test Cables.jpg"
     }
   ]
 }
